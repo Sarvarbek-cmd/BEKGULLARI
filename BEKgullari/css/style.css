@@ -1,0 +1,95 @@
+body{
+    margin: 0px 0px 0px 5px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bgvd{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+nav {
+    text-align: center;
+    animation-name: a;
+    animation-duration: 3s;
+}
+
+nav a {
+    font-size: 70px;
+    font-weight:bold;
+    color: red;
+    animation-name: a;
+    animation-duration: 2s;
+    display: inline;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+section{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imgC{
+    animation: ab;
+    animation-duration: 1s;
+    position: relative;
+    top: 60px;
+}
+.imgC img {
+    border: 2px solid rgb(120, 7, 7);
+    margin: 0px  20px 0 20px ;
+    width: 130px;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+}
+.imgC p{
+    border-radius: 0 0 20px  20px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+    width: 130px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 10px 100px rgb(255, 255, 255 , 45%);
+    margin: 0;
+    color: red;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+}
+.all{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:40px -20px 0px -20px;
+}
+.all img{
+    margin: 10px;
+    width: 190px;
+    height: 150px;
+    animation-name: w;
+    animation-duration: 2s;
+    border-radius: 10px;
+}
+.close img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    bottom: top;z-index: 99;
+    border-radius: 30px;
+    background-color: rgb(255, 247, 233);
+}
